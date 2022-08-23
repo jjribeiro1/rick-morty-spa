@@ -21,9 +21,9 @@ function Update() {
     setUpdatedCharacter(character);
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
-    Api.PutRequest(Api.updateUrl(id), updatedCharacter);
+    await Api.PutRequest(Api.updateUrl(id), updatedCharacter);
     navigate(`/find/${id}`);
   }
 
