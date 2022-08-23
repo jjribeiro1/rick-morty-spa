@@ -14,4 +14,6 @@ body,
   background-image: url(../public/assets/images/bg-rick-morty.webp);
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
