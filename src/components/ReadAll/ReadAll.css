@@ -1,0 +1,14 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  height: 100%;
+}
+
+div.loading {
+  margin: 0 auto;
+  font-size:2rem;
+  opacity: 0;
+}

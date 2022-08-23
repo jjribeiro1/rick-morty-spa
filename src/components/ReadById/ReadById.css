@@ -1,0 +1,52 @@
+.card_id_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  border-radius: 20px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background: #1c6ea4;
+  cursor: pointer;
+}
+
+.card_id_title {
+  font-size: 1.8rem;
+  color: #1f1c24;
+  text-shadow: 0 0 10px #d4aeff;
+}
+
+.card_id_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding: 0.3rem;
+}
+
+.card_id_details {
+  font-size: 1.2rem;
+  color: #1f1c24;
+  text-shadow: 0 0 10px #d4aeff;
+}
+
+.card_id_buttons_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
+}
+.card_id_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rebeccapurple;
+  height: 2.5rem;
+  width: 3.7rem;
+  border-radius: 16px;
+  cursor: pointer;
+}

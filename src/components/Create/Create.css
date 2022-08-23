@@ -1,0 +1,14 @@
+.page_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form_title {
+  font-size: 2rem;
+  color: #7700ff;
+  text-shadow: 0 0 10px #d4aeff;
+  margin-bottom: 2.5rem;
+}
