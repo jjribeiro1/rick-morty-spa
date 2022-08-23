@@ -1,6 +1,6 @@
 import axios from "axios";
 export const Api = {
-  baseUrl: "http://localhost:3001",
+  baseUrl: "https://m4-rick-morty.herokuapp.com",
 
   // endpoint da api
   createUrl: () => Api.baseUrl + "/characters/create",
